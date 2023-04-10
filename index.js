@@ -11,7 +11,7 @@ app.use(
 );
 
 app.get('/dice/roll', (req, res) => {
-  const num = Math.round(Math.random() * 5 + 1);
+  const num = Math.round(Math.random() * 19 + 1);
   res.json({
     result: num,
   });
